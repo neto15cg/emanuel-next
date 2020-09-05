@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var Colors;\n\n(function (Colors) {\n  Colors[\"black\"] = \"#000000\";\n  Colors[\"white\"] = \"#ffffff\";\n})(Colors || (Colors = {}));","map":null,"metadata":{},"sourceType":"module"}

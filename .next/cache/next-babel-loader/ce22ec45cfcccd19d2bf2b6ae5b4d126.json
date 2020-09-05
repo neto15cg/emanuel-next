@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var fontRoboto = 'Inter, sans-serif';","map":{"version":3,"sources":["/home/eliezer/Projects/nextjs/emanuel/src/styles/theme/fonts.theme.ts"],"names":["fontRoboto"],"mappings":"AAAA,OAAO,IAAMA,UAAU,GAAG,mBAAnB","sourcesContent":["export const fontRoboto = 'Inter, sans-serif';\n"]},"metadata":{},"sourceType":"module"}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var genericBoxSizing = function genericBoxSizing() {\n  return \"\\n  html {\\n    box-sizing: border-box;\\n  }\\n\\n  * {\\n    &,\\n    &:before,\\n    &:after {\\n      box-sizing: inherit;\\n    }\\n  }\\n\";\n};","map":null,"metadata":{},"sourceType":"module"}

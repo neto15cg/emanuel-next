@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport GlobalStyle from '../../styles/global.styles';\n\nconst Layout = props => {\n  const {\n    children\n  } = props;\n  return __jsx(React.Fragment, null, children, __jsx(GlobalStyle, null));\n};\n\nexport default Layout;","map":null,"metadata":{},"sourceType":"module"}

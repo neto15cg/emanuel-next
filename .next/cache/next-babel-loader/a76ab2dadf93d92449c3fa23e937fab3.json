@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React, { createContext } from 'react';\nconst AmpContext = createContext(false);\nexport default AmpContext;\nexport const AmpProvider = ({\n  children,\n  isAmp\n}) => __jsx(AmpContext.Provider, {\n  value: isAmp\n}, children);","map":null,"metadata":{},"sourceType":"module"}

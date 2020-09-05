@@ -1,0 +1,44 @@
+{
+  "ast": null,
+  "code": "var _jsxFileName = \"/home/eliezer/Projects/nextjs/emanuel/src/components/svgIcon/SvgIcon.tsx\";\nvar __jsx = React.createElement;\nimport React, { useEffect, useState } from 'react';\nimport styled from 'styled-components';\nimport SVG from 'react-inlinesvg';\nimport path from 'path';\nconst CustomSvg = styled(SVG).withConfig({\n  displayName: \"SvgIcon__CustomSvg\",\n  componentId: \"sc-1v6yelk-0\"\n})([\"width:\", \";height:\", \";max-width:\", \";min-width:\", \";flex:0 0 \", \";\", \"\"], props => props.width || '16px', props => props.height || '16px', props => props.maxwidth || '100%', props => props.minwidth ? `${props.minwidth}` : 'auto', props => props.width || '16px', props => props.fill ? `fill: ${props.theme.colors[props.fill]};` : '');\nexport const SvgIcon = props => {\n  const {\n    src,\n    width,\n    height,\n    maxwidth,\n    maxheight,\n    minwidth,\n    fill,\n    className,\n    testId\n  } = props;\n  const {\n    0: isIE,\n    1: setIsIE\n  } = useState(false);\n  useEffect(() => {\n    const isIE11 = !!window.MSInputMethodContext && !!document.documentMode;\n\n    if (isIE11) {\n      setIsIE(true);\n    }\n  }, []);\n\n  if (isIE) {\n    return __jsx(CustomSvg, {\n      \"data-testid\": testId,\n      as: \"img\",\n      src: path.resolve(src),\n      width: width,\n      height: height,\n      maxwidth: maxwidth,\n      maxheight: maxheight,\n      minwidth: minwidth,\n      alt: \"Icon\",\n      className: className,\n      __self: this,\n      __source: {\n        fileName: _jsxFileName,\n        lineNumber: 30,\n        columnNumber: 7\n      }\n    });\n  }\n\n  return __jsx(CustomSvg, {\n    \"data-testid\": testId,\n    src: path.resolve(src),\n    width: width,\n    height: height,\n    maxwidth: maxwidth,\n    maxheight: maxheight,\n    minwidth: minwidth,\n    fill: fill,\n    className: className,\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 46,\n      columnNumber: 5\n    }\n  });\n};\nexport default SvgIcon;",
+  "map": {
+    "version": 3,
+    "sources": ["/home/eliezer/Projects/nextjs/emanuel/src/components/svgIcon/SvgIcon.tsx"],
+    "names": [
+      "React",
+      "useEffect",
+      "useState",
+      "styled",
+      "SVG",
+      "path",
+      "CustomSvg",
+      "props",
+      "width",
+      "height",
+      "maxwidth",
+      "minwidth",
+      "fill",
+      "theme",
+      "colors",
+      "SvgIcon",
+      "src",
+      "maxheight",
+      "className",
+      "testId",
+      "isIE",
+      "setIsIE",
+      "isIE11",
+      "window",
+      "MSInputMethodContext",
+      "document",
+      "documentMode",
+      "resolve"
+    ],
+    "mappings": ";;AAAA,OAAOA,KAAP,IAAgBC,SAAhB,EAA2BC,QAA3B,QAA2C,OAA3C;AACA,OAAOC,MAAP,MAAmB,mBAAnB;AACA,OAAOC,GAAP,MAAgB,iBAAhB;AACA,OAAOC,IAAP,MAAiB,MAAjB;AAGA,MAAMC,SAAS,GAAGH,MAAM,CAACC,GAAD,CAAT;AAAA;AAAA;AAAA,gFACHG,KAAD,IAAWA,KAAK,CAACC,KAAN,IAAe,MADtB,EAEFD,KAAD,IAAWA,KAAK,CAACE,MAAN,IAAgB,MAFxB,EAGCF,KAAD,IAAWA,KAAK,CAACG,QAAN,IAAkB,MAH7B,EAICH,KAAD,IAAYA,KAAK,CAACI,QAAN,GAAkB,GAAEJ,KAAK,CAACI,QAAS,EAAnC,GAAuC,MAJnD,EAKAJ,KAAD,IAAWA,KAAK,CAACC,KAAN,IAAe,MALzB,EAOVD,KAAD,IAAYA,KAAK,CAACK,IAAN,GAAc,SAAQL,KAAK,CAACM,KAAN,CAAYC,MAAZ,CAAmBP,KAAK,CAACK,IAAzB,CAA+B,GAArD,GAA0D,EAP3D,CAAf;AAUA,OAAO,MAAMG,OAAO,GAAIR,KAAD,IAAyB;AAC9C,QAAM;AAAES,IAAAA,GAAF;AAAOR,IAAAA,KAAP;AAAcC,IAAAA,MAAd;AAAsBC,IAAAA,QAAtB;AAAgCO,IAAAA,SAAhC;AAA2CN,IAAAA,QAA3C;AAAqDC,IAAAA,IAArD;AAA2DM,IAAAA,SAA3D;AAAsEC,IAAAA;AAAtE,MAAiFZ,KAAvF;AACA,QAAM;AAAA,OAACa,IAAD;AAAA,OAAOC;AAAP,MAAkBnB,QAAQ,CAAC,KAAD,CAAhC;AAEAD,EAAAA,SAAS,CAAC,MAAM;AACd,UAAMqB,MAAM,GAAG,CAAC,CAACC,MAAM,CAACC,oBAAT,IAAiC,CAAC,CAAEC,QAAD,CAAkBC,YAApE;;AACA,QAAIJ,MAAJ,EAAY;AACVD,MAAAA,OAAO,CAAC,IAAD,CAAP;AACD;AACF,GALQ,EAKN,EALM,CAAT;;AAOA,MAAID,IAAJ,EAAU;AACR,WACE,MAAC,SAAD;AACE,qBAAaD,MADf;AAEE,MAAA,EAAE,EAAC,KAFL;AAGE,MAAA,GAAG,EAAEd,IAAI,CAACsB,OAAL,CAAaX,GAAb,CAHP;AAIE,MAAA,KAAK,EAAER,KAJT;AAKE,MAAA,MAAM,EAAEC,MALV;AAME,MAAA,QAAQ,EAAEC,QANZ;AAOE,MAAA,SAAS,EAAEO,SAPb;AAQE,MAAA,QAAQ,EAAEN,QARZ;AASE,MAAA,GAAG,EAAC,MATN;AAUE,MAAA,SAAS,EAAEO,SAVb;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,MADF;AAcD;;AAED,SACE,MAAC,SAAD;AACE,mBAAaC,MADf;AAEE,IAAA,GAAG,EAAEd,IAAI,CAACsB,OAAL,CAAaX,GAAb,CAFP;AAGE,IAAA,KAAK,EAAER,KAHT;AAIE,IAAA,MAAM,EAAEC,MAJV;AAKE,IAAA,QAAQ,EAAEC,QALZ;AAME,IAAA,SAAS,EAAEO,SANb;AAOE,IAAA,QAAQ,EAAEN,QAPZ;AAQE,IAAA,IAAI,EAAEC,IARR;AASE,IAAA,SAAS,EAAEM,SATb;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IADF;AAaD,CAzCM;AA2CP,eAAeH,OAAf",
+    "sourcesContent": [
+      "import React, { useEffect, useState } from 'react';\nimport styled from 'styled-components';\nimport SVG from 'react-inlinesvg';\nimport path from 'path';\nimport { SvgIconProps } from './SvgIcon.types';\n\nconst CustomSvg = styled(SVG)`\n  width: ${(props) => props.width || '16px'};\n  height: ${(props) => props.height || '16px'};\n  max-width: ${(props) => props.maxwidth || '100%'};\n  min-width: ${(props) => (props.minwidth ? `${props.minwidth}` : 'auto')};\n  flex: 0 0 ${(props) => props.width || '16px'};\n\n  ${(props) => (props.fill ? `fill: ${props.theme.colors[props.fill]};` : '')}\n`;\n\nexport const SvgIcon = (props: SvgIconProps) => {\n  const { src, width, height, maxwidth, maxheight, minwidth, fill, className, testId } = props;\n  const [isIE, setIsIE] = useState(false);\n\n  useEffect(() => {\n    const isIE11 = !!window.MSInputMethodContext && !!(document as any).documentMode;\n    if (isIE11) {\n      setIsIE(true);\n    }\n  }, []);\n\n  if (isIE) {\n    return (\n      <CustomSvg\n        data-testid={testId}\n        as=\"img\"\n        src={path.resolve(src)}\n        width={width}\n        height={height}\n        maxwidth={maxwidth}\n        maxheight={maxheight}\n        minwidth={minwidth}\n        alt=\"Icon\"\n        className={className}\n      />\n    );\n  }\n\n  return (\n    <CustomSvg\n      data-testid={testId}\n      src={path.resolve(src)}\n      width={width}\n      height={height}\n      maxwidth={maxwidth}\n      maxheight={maxheight}\n      minwidth={minwidth}\n      fill={fill}\n      className={className}\n    />\n  );\n};\n\nexport default SvgIcon;\n"
+    ]
+  },
+  "metadata": {},
+  "sourceType": "module"
+}

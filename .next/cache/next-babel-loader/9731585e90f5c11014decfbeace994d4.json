@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var fontRoboto = 'Noto, Roboto';","map":{"version":3,"sources":["/home/eliezer/Projects/nextjs/emanuel/src/styles/theme/fonts.theme.ts"],"names":["fontRoboto"],"mappings":"AAAA,OAAO,IAAMA,UAAU,GAAG,cAAnB","sourcesContent":["export const fontRoboto = 'Noto, Roboto';\n"]},"metadata":{},"sourceType":"module"}
