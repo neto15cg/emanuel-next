@@ -15,6 +15,7 @@ if (envConfig.error) {
 }
 
 module.exports = {
+  target: 'serverless',
   exportTrailingSlash: true,
   webpack: (config) => {
     const newConfig = config;
