@@ -4,17 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "NODE_ENV=development nodemon server.js",
+    "dev": "next dev",
     "build": "next build",
-    "postbuild": "next-on-netlify",
-    "heroku-postbuild": "npm run build",
-    "export": "next export",
-    "start": "next start -p $PORT",
-    "prestart:local": "npm run build",
-    "start:local": "npm start",
-    "test": "jest",
-    "lint": "eslint src/ --ext .ts --ext .tsx",
-    "lint:fix": "eslint src/ --ext .ts --ext .tsx --fix"
+    "start": "next start"
   },
   "keywords": [],
   "author": "",
