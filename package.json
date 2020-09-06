@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "NODE_ENV=development nodemon server.js",
     "build": "next build",
+    "postbuild": "next-on-netlify",
     "export": "next export",
     "start": "NODE_ENV=production node server.js",
     "prestart:local": "npm run build",
