@@ -10,6 +10,7 @@ export enum Colors {
   black1 = '#EAE9E9',
   black0 = '#F7F7F7',
   white = '#ffffff',
+  green = '#46b946',
 }
 
 export type ColorsTheme = typeof Colors;

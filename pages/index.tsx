@@ -4,12 +4,13 @@ import { useAmp } from 'next/amp';
 import Layout from '@components/layout/Layout';
 import { AmpProvider } from '@utils/AmpContext';
 import Header from '@components/Header/Header';
-import { HeaderContent, HeaderButtonsContainer, ButtonHeader, Logo, RequestBudget } from '@components/styled/Styled';
+import { HeaderContent, HeaderButtonsContainer, ButtonHeader, Logo } from '@components/styled/Styled';
 import IntroduceSection from '@components/IntroduceSection/IntroduceSection';
 import HighLightSection from '@components/HighLightSection/HightLightSection';
 import ServiceSection from '@components/ServiceSection/ServiceSection';
 import GallerySection from '@components/GallerySection/GallerySection';
 import ContactSection from '@components/ContactSection/ContactSection';
+import ButtonContact from '@components/ButtonContact/ButtonContact';
 
 const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
 
@@ -37,8 +38,8 @@ const Index = () => {
         <title>Emanuel Menezes - Engenheiro Civil</title>
         <meta name="Description" content="Emanuel Menezes é engenheiro civil na cidade de Capim Grosso - Bahia" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.xpi.com.br/" />
-        <link rel="amphtml" href="https://amp.emanuelmenezes.com.br" />
+        <link rel="canonical" href="https://hardcore-shaw-514a54.netlify.app/" />
+        <link rel="amphtml" href="https://amp.hardcore-shaw-514a54.netlify.app" />
       </Head>
       <Layout>
         <main>
@@ -50,7 +51,7 @@ const Index = () => {
                 <ButtonHeader onClick={handleScrolTo(ContactectionRef)}>Contato</ButtonHeader>
               </HeaderButtonsContainer>
               <Logo to="/">EM</Logo>
-              <RequestBudget>Solicite orçamento</RequestBudget>
+              <ButtonContact />
             </HeaderContent>
           </Header>
           <div ref={introduceSectionRef}>

@@ -8,7 +8,7 @@ export const StyledHeader = styled.header`
   left: 0;
   z-index: 2;
   width: 100%;
-  padding: ${(props) => props.theme.global.gutterSpace}px ${(props) => props.theme.global.gutterSpace * 8}px;
+  padding: ${(props) => props.theme.global.gutterSpace}px ${(props) => props.theme.global.gutterSpace * 9}px;
   transition: box-shadow 300ms ease-in-out, background-color 300ms linear;
 
   ${(props) =>

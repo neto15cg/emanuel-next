@@ -66,22 +66,3 @@ export const Logo = styled.a`
   font-size: 2.5rem;
   font-weight: 800;
 `;
-
-export const RequestBudget = styled.button`
-  display: flex;
-  background: none;
-  align-items: center;
-  justify-content: center;
-  color: inherit;
-  border: none;
-  padding: 0;
-  font: inherit;
-  cursor: pointer;
-  outline: inherit;
-  background-color: ${(props) => props.theme.colors.black8};
-  border-radius: 2px;
-  padding: 0 30px;
-  color: ${(props) => props.theme.colors.black0};
-  font-size: 1.4rem;
-  font-weight: 500;
-`;

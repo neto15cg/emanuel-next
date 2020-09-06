@@ -6,19 +6,24 @@ import { GalelerySectionContainer, AnimatedDivRight } from './GallerySection.sty
 
 const photos = [
   {
-    src: '/static/assets/images/profile.jpeg',
-    width: 3,
-    height: 4,
+    src: '/static/assets/images/image1.jpg',
+    width: 1,
+    height: 1,
   },
   {
-    src: '/static/assets/images/background1.svg',
-    width: 3,
-    height: 4,
+    src: '/static/assets/images/image2.jpg',
+    width: 1,
+    height: 1,
   },
   {
-    src: '/static/assets/images/divider.svg',
-    width: 3,
-    height: 4,
+    src: '/static/assets/images/image3.jpg',
+    width: 1,
+    height: 1,
+  },
+  {
+    src: '/static/assets/images/image4.jpg',
+    width: 1,
+    height: 1,
   },
 ];
 
