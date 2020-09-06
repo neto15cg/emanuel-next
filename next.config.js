@@ -2,9 +2,7 @@ const path = require('path');
 const dotenv = require('dotenv');
 
 let envConfig;
-if (process.env.NODE_ENV
-  && process.env.NODE_ENV !== 'development'
-  && process.env.NODE_ENV !== 'production') {
+if (process.env.NODE_ENV && process.env.NODE_ENV !== 'development' && process.env.NODE_ENV !== 'production') {
   envConfig = dotenv.config({
     path: path.join(__dirname, `.env.${process.env.NODE_ENV}`),
   });
